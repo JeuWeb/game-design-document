@@ -49,7 +49,7 @@ Dans les itérations suivantes, la personnalisation des personnages sera mise en
 
 Chaque action effectuée par un joueur génère plus ou moins de bruit, visible par un marqueur sur la case : tirer au pistolet générera plus de bruit que d'utiliser un couteau.
 
-Une case ayant 3 marqueurs de bruits attirera vers elle tous les zombies à 3 cases..sauf s'ils ont mieux à faire.
+Une case ayant 3 marqueurs de bruits attirera vers elle tous les zombies à 3 cases..sauf s'ils ont mieux à faire (attaquer ou se déplacer vers une case générant plus de bruit que la votre).
 
 ## Zombies
 
@@ -57,10 +57,11 @@ Les zombies sont joués par le système, ils agissent automatiquement à interva
 
 Quand vient leur tour, les zombies qui partagent la case d'au moins un personnage passent à l'attaque : ils frappent alors l'un des personnages présents, désigné aléatoirement, qui perd alors quelques points de vie.
 
-Quand ils ne partagent pas la case d'un personnage et qu'un bruit retentit sur une case, les zombies à portée de ce bruit sont attirés : quand vient leur tour de jeu (propre à chacun), ils se déplacent en direction de ce bruit. Si un autre bruit les attire entre temps, ils se dirigent vers ce dernier.
+Quand ils ne partagent pas la case d'un personnage et qu'un bruit retentit sur une case, les zombies à portée de ce bruit sont attirés : quand vient leur tour de jeu (propre à chacun), ils se déplacent en direction de ce bruit d'une case. Si un autre bruit les attire entre temps, ils se dirigent vers ce dernier.
 
 Si un zombie n'a ni attaqué, ni suivi un bruit, il se déplace dans une direction aléatoire.
 
+Quand un joueur génère du bruit, il y a une chance pour que les zombies se déplacent immédiatement sur sa case, sans attendre leur tour.
 
 Au cours de la partie, de nouveaux zombies apparaissent parfois sur les cases en bordure du plateau de jeu.
 
