@@ -47,9 +47,15 @@ Dans les itérations suivantes, la personnalisation des personnages sera mise en
 
 ## Le bruit
 
-Chaque action effectuée par un joueur génère plus ou moins de bruit, visible par un marqueur sur la case : tirer au pistolet générera plus de bruit que d'utiliser un couteau.
+Chaque action effectuée par un joueur génère du bruit, représenté par des marqueurs bruits sur la case.
 
-Une case ayant 3 marqueurs de bruits attirera vers elle tous les zombies à 3 cases..sauf s'ils ont mieux à faire (attaquer ou se déplacer vers une case générant plus de bruit que la votre).
+Les joueurs et les zombies entendent ce bruit de la même manière :
+
+- Pour les zombies : une case ayant 3 marqueurs bruits attirera vers elle tous les zombies à 3 cases aux alentours (voir paragraphe sur les zombies).
+
+- Pour les joueurs : si une case génère 2 marqueurs bruits et qu'un joueur se trouve à 2 cases aux alentours, il pourra voir les marqueurs sur la case.
+
+Les marqueurs ont une durée de vie et ont 3 états : Vert, Orange, Rouge, représentant l'ancienneté du marqueur (rouge étant le plus récent).
 
 ## Zombies
 
