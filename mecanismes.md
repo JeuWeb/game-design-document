@@ -72,7 +72,7 @@ Quand un joueur génère du bruit, il y a une chance pour que les zombies se dé
 Au cours de la partie, de nouveaux zombies apparaissent parfois sur les cases en bordure du plateau de jeu.
 
 
-### Les armes
+## Les armes
 
 Lorsqu'un personnage attaque un zombie ou un autre personnage, il le fait avec une arme. Chaque arme dispose d'une portée (0 pour une arme de corps à corps) et de plusieurs plages de dégâts (de l'échec du coup au coup critique) qui reflètent sa dangerosité.
 
