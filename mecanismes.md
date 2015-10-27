@@ -33,12 +33,12 @@ Les personnages sont les entités contrôlés par les joueurs. Quand il rejoint 
 
 Chaque personnage peut effectuer diverses tâches au prix d'un certain nombre de points d'action :
 
-- Crier : les autres personnages (et zombies !) peuvent recevoir le message, même à plusieurs cases de distance.
-- Parler : seuls les personnages et zombies des cases adjacentes reçoivent le message.
+- Crier : les autres personnages (et zombies !) peuvent recevoir le message, même à 3 cases de distance.
+- Parler : seuls les personnages (et zombies !) de la case et des cases adjacentes reçoivent le message.
 - Chuchoter : seul le personnage choisi reçoit le message.
-- Donner un objet : un personnage choisi reçoit alors l'objet désigné.
+- Donner un objet : un personnage choisi sur la même case reçoit alors l'objet désigné.
 - Déposer un objet : l'objet est alors placé sur la case, à la disposition de tous.
-- Ramasser un objet : l'objet est alors placé dans l'inventaire du personnage.
+- Ramasser un objet : l'objet choisi sur la case est est alors placé dans l'inventaire du personnage.
 - Se déplacer sur une case adjacente (haut, droite, bas, gauche).
 - Attaquer : si la cible est sur la même case, on peut la choisir, si elle est sur une case plus éloignée (selon la portée de l'arme), la cible est déterminée aléatoirement (parmi les survivants et les zombies !).
 
