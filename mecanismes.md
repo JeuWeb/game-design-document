@@ -45,7 +45,11 @@ Chaque personnage peut effectuer diverses tâches au prix d'un certain nombre de
 
 Dans les itérations suivantes, la personnalisation des personnages sera mise en avant.
 
+## Le bruit
 
+Chaque action effectuée par un joueur génère plus ou moins de bruit, visible par un marqueur sur la case : tirer au pistolet générera plus de bruit que d'utiliser un couteau.
+
+Une case ayant 3 marqueurs de bruits attirera vers elle tous les zombies à 3 cases..sauf s'ils ont mieux à faire.
 
 ## Zombies
 
