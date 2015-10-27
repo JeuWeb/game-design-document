@@ -7,7 +7,7 @@ La première itération du projet se veut minimaliste tout en étant jouable : e
 - Création d'un personnage dans une partie : on lui donne simplement un nom.
 - Les personnages sont tous identiques (en dehors d'un nom). Ils ont une jauge de santé et des points d'action.
 - Les points d'action sont rechargés régulièrement (à chaque joueur son heure de recharge).
-- Il dispose d'un inventaire, avec une limite globale de poids.
+- Il dispose d'un inventaire constitués de plusieurs emplacements : chaque objet ramassé occupe un emplacement.
 - Un personnage peut fouiller une pièce, avec la probabilité de trouver une arme, qu'il peut alors ramasser ou laisser au sol.
 - Il peut se déplacer.
 - Il peut crier (bruyant), parler (peu bruyant) ou chuchoter (aucun bruit).
