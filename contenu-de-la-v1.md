@@ -52,7 +52,7 @@
 - Les items
 
 
-  # Contenu de la V1
+  # Contenu de la V1-Old
 
 - Création d'un personnage dans une partie : on lui donne simplement un nom.
   - Les personnages ont 2 jauges :
